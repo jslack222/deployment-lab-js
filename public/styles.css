@@ -2,8 +2,15 @@
     margin: 0px; 
     padding: 0px; 
     box-sizing: border-box; 
+    color: white
 }
+#sectionS {
 
+}
+#pic {
+    width: 40%;
+    
+}
 body{
     display: flex; 
     flex-direction: column;
@@ -15,7 +22,38 @@ body{
 
 h1 {
     color: white;
+    margin: 10% 0%
 }
 h2 {
     color: white;
+}
+#section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15%;
+}
+#title1{
+    font-size: 200%;
+    padding: 2%;
+    text-transform: uppercase;
+    font-weight: 15%;
+    margin: 20px 0px;
+
+}
+#info {
+    font-size: 200%;
+}
+#button1{
+    color: black; 
+    font-size: 150%;
+    margin: 20px 0px; 
+    padding: 1%
+
+}
+#button2{
+    color: black;
+        font-size: 150%;
+        margin: 20px 0px;
+        padding: 1%
 }
